@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>transfer</title>
+<style type="text/css">
+form
+{ 
+    color: white;
+    margin-top: 5%;
+    margin-left: 56%;
+    text-align: center;
+
+}
+body
+{    color : white;
+     background: url(bankwall.jpg);
+     background-size: 100% 700px;
+     background-repeat: no repeat;
+}
+</style>
+</head>
+<body>
+      <form action="transfer" method="post">
+      <table>
+         <tr>
+             <td>from a/c no to  </td>
+             <td> : </td>
+             <td><input type = "number" name="a1" placeholder="payee a/c"></td>
+        </tr>
+        <tr>
+            <td>to a/c no </td>
+            <td> : </td>
+            <td><input type ="number" name="a2" placeholder="beneficiary a/c"> </td>
+       </tr>
+       <tr>
+           <td>amount </td>
+           <td> : </td>
+           <td><input type="number" name="amt" placeholder="amount"></td>
+       </tr>
+      </table>
+		<center> <input type="submit" value="pay"></center>
+      </form>
+      
+
+</body>
+</html>
